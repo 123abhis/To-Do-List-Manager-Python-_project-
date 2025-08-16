@@ -1,5 +1,6 @@
-print(" welcome to the simole to do list program")
 
+print(" welcome to TO-DO-LIST program")
+ 
 def load_tasks(filename):
     try:
         with open(filename, "r") as  file :
@@ -46,8 +47,9 @@ while True :
                 print("invaild task number :")
         else: 
             print("NO tasks found to remove :")
+            
     elif choice == "4":
-        print("Exiting the task manager. Goodbye!")
+        print("Thank you for using to do list program . Goodbye! ")
         break
     else :
         print("Invaild choice please try again")
